@@ -32,32 +32,43 @@ st.markdown("""
     padding-bottom:2rem;
 }
 
-/* Sidebar Navigation */
-[data-testid="stRadio"] label[data-baseweb="radio"] > div:first-child {
+/* Premium Sidebar Navigation */
+
+[data-testid="stRadio"] > label {
+    color: #94a3b8 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    margin-bottom: 10px !important;
+}
+
+[data-testid="stRadio"] [data-baseweb="radio"] {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 11px 14px !important;
+    margin: 3px 0 !important;
+    transition: all 0.2s ease !important;
+}
+
+[data-testid="stRadio"] [data-baseweb="radio"]:hover {
+    background: #1e3a5f !important;
+    border: none !important;
+    transform: translateX(3px);
+}
+
+[data-testid="stRadio"] [data-baseweb="radio"]:has(input:checked) {
+    background: linear-gradient(90deg, #2563eb, #4f46e5) !important;
+    border: none !important;
+    color: white !important;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.25);
+}
+
+[data-testid="stRadio"] [data-baseweb="radio"] > div:first-child {
     display: none !important;
 }
 
-[data-testid="stRadio"] label[data-baseweb="radio"] {
-    padding: 11px 14px !important;
-    border-radius: 10px !important;
-    margin: 3px 0 !important;
-}
-
-[data-testid="stRadio"] label[data-baseweb="radio"]:hover {
-    background: #1e3a5f !important;
-}
-
-[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) {
-    background: #2563eb !important;
-    color: white !important;
-}
-
-[data-testid="stMetric"]{
-    background:#1e293b;
-    border-radius:15px;
-    padding:15px;
-    border:1px solid #334155;
-    box-shadow:0 2px 10px rgba(0,0,0,.30);
+[data-testid="stRadio"] [data-baseweb="radio"] input {
+    display: none !important;
 }
 
 [data-testid="stMetricLabel"]{
