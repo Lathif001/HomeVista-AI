@@ -94,11 +94,11 @@ div[data-testid="stVerticalBlock"]>div:has(div.house-card){
 .title{
     font-size:42px;
     font-weight:700;
-    color:#0F172A;
+    color:#2563eb;
 }
 
 .subtitle{
-    color:#64748B;
+    color:#94a3b8;
     font-size:18px;
 }
 
