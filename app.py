@@ -32,49 +32,24 @@ st.markdown("""
     padding-bottom:1rem;
 }
 
-/* Clean Sidebar Navigation */
-[data-testid="stSidebar"] [data-testid="stRadio"] > label {
-    font-size: 14px;
-    font-weight: 600;
-    color: #94a3b8;
-    margin-bottom: 8px;
-}
-
-[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] {
-    gap: 6px;
-}
-
-/* Completely hide radio circles */
-[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label > div:first-child,
-[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label > div:first-child > div:first-child {
+/* Sidebar Navigation */
+[data-testid="stRadio"] label[data-baseweb="radio"] > div:first-child {
     display: none !important;
 }
 
-[data-testid="stSidebar"] [data-testid="stRadio"] input[type="radio"] {
-    display: none !important;
+[data-testid="stRadio"] label[data-baseweb="radio"] {
+    padding: 11px 14px !important;
+    border-radius: 10px !important;
+    margin: 3px 0 !important;
 }
 
-/* Navigation items */
-[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label {
-    padding: 11px 14px;
-    border-radius: 10px;
-    margin: 2px 0;
-    color: #e2e8f0;
-    font-size: 16px;
-    font-weight: 500;
-    transition: 0.2s;
+[data-testid="stRadio"] label[data-baseweb="radio"]:hover {
+    background: #1e3a5f !important;
 }
 
-/* Hover */
-[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label:hover {
-    background: #1e3a5f;
-}
-
-/* Selected item */
-[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label:has(input:checked) {
-    background: #2563eb;
-    color: white;
-    font-weight: 600;
+[data-testid="stRadio"] label[data-baseweb="radio"]:has(input:checked) {
+    background: #2563eb !important;
+    color: white !important;
 }
 
 [data-testid="stMetric"]{
