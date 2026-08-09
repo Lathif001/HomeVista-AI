@@ -28,8 +28,8 @@ st.markdown("""
 }
 
 .block-container{
-    padding-top:1rem;
-    padding-bottom:1rem;
+    padding-top:3rem;
+    padding-bottom:2rem;
 }
 
 /* Sidebar Navigation */
