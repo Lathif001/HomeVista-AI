@@ -1,16 +1,22 @@
 # 🏡 HomeVista AI
 
-HomeVista AI is an AI-powered property analytics and house price prediction platform built using Python, Machine Learning, Streamlit, and Plotly.
+## Data Science Project — House Price Prediction & Property Analytics
 
-## 🚀 Features
+HomeVista AI is an end-to-end **Data Science and Machine Learning project** that analyzes residential property data, discovers housing market patterns, recommends properties based on user requirements, and predicts house prices using Machine Learning.
 
-- 📊 Interactive Housing Market Analysis
-- 🔍 Smart House Finder
-- 🤖 AI House Price Prediction
-- 📈 Market Insights Dashboard
-- 📌 Property recommendations based on user requirements
-- 📉 Interactive data visualizations
-- 💰 Estimated property price prediction
+The project combines **data preprocessing, exploratory data analysis, data visualization, feature engineering, machine learning, model evaluation, and an interactive Streamlit dashboard**.
+
+## 🚀 Key Features
+
+- 📊 Exploratory Data Analysis (EDA)
+- 📈 Interactive housing market visualizations
+- 🧹 Data preprocessing and cleaning
+- 🔧 Feature engineering
+- 🤖 House price prediction using Gradient Boosting
+- 📐 Model evaluation using R² score
+- 🔍 Smart House Finder based on user requirements
+- 💰 Property price estimation
+- 📊 Interactive Data Science dashboard
 
 ## 🧠 Machine Learning
 
