@@ -44,9 +44,14 @@ st.markdown("""
     gap: 6px;
 }
 
-/* Hide radio circles */
-[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label > div:first-child {
-    display: none;
+/* Completely hide radio circles */
+[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label > div:first-child,
+[data-testid="stSidebar"] [data-testid="stRadio"] div[role="radiogroup"] label > div:first-child > div:first-child {
+    display: none !important;
+}
+
+[data-testid="stSidebar"] [data-testid="stRadio"] input[type="radio"] {
+    display: none !important;
 }
 
 /* Navigation items */
