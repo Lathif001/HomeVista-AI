@@ -133,7 +133,7 @@ st.sidebar.markdown("""
 ---
 """)
 
-page=st.sidebar.radio(
+page = st.sidebar.pills(
     "Navigation",
     [
         "🏠 Home",
@@ -141,7 +141,9 @@ page=st.sidebar.radio(
         "🔍 Smart House Finder",
         "🤖 Price Prediction",
         "📈 Market Insights"
-    ]
+    ],
+    selection_mode="single",
+    default="🏠 Home"
 )
 
 # ============================================================
