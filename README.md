@@ -350,11 +350,11 @@ The Streamlit application loads the saved model using Joblib to generate house p
 
 ### 3. Install Dependencies
 
-    pip install -r requirements.txt
+    python -m pip install -r requirements.txt
 
 ### 4. Run the Streamlit Application
 
-    streamlit run app.py
+    python -m streamlit run app.py
 
 ### 5. Open the Application
 
