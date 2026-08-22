@@ -492,5 +492,3 @@ GitHub can be used to store and manage the project source code and documentation
 ## 👨‍💻 Author
 
 **Lathif Shaik**
-
-B.Tech — Data Science
